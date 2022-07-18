@@ -88,17 +88,27 @@ nav p:hover {
     text-decoration: none;
 }
 
-#test {
-    width: 50%;
-    border: 5px solid black;
-    border-radius: 5px;
-    margin: auto;
-    text-align: center;
-    font-size:xx-large;
-    padding-top: 25px;
-}
-
 main {
-    margin: -20px;
+    margin: -1%;
     background-color: #505050;
 }
+
+#cover-photo img {
+    width: 100%;
+    height: auto;
+}
+
+#cover-photo {
+    margin-bottom: 10px;
+}
+
+#newest-release {
+    width: 80%;
+    margin: auto;
+    
+}
+
+#newest-release h1 {
+    color: darkred;
+}
+
