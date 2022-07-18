@@ -1,0 +1,104 @@
+header {
+    margin: 0px;
+    border: 0px;
+    background-color: black;
+    height: 100px;
+}
+
+#social-link-icons {
+    display: inline-block;
+    height: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+} 
+
+#social-link-icons .fa-brands {
+    color: darkred;
+    margin-right: 15px;
+}
+
+#social-link-icons .fa-brands:hover {
+    color: red;
+    text-decoration: none;
+}
+
+#social-link-icons .fa-brands:visited,
+#social-link-icons .fa-brands:active {
+    text-decoration: none;
+}
+
+#header-logo {
+    height: 100px;
+    width: auto;
+    
+}
+
+#header-logo:hover {
+    opacity: 80%;
+}
+
+nav {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-image: linear-gradient(to bottom, black, black, black, black, transparent);
+    height: 50px;
+    position: sticky;
+    top: 0;
+}
+
+nav > div {
+    width: 50%;
+    margin: auto;
+}
+
+#navbar-link-container {
+    width: max-content;
+    margin: auto;
+}
+
+.navbar-link {
+    display: inline-block;
+    width: max-content;
+    margin-right: .0.05%;
+}
+
+#current-page {
+    border: 1px solid darkred;
+    border-radius: 10px;
+}
+
+nav a,
+nav p {
+    color: darkred;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: .5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+nav a:hover,
+nav p:hover {
+    color: red;
+    text-decoration: none;
+}
+
+#test {
+    width: 50%;
+    border: 5px solid black;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+    font-size:xx-large;
+    padding-top: 25px;
+}
+
+main {
+    margin: -20px;
+    background-color: #505050;
+}
