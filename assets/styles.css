@@ -3,6 +3,7 @@ header {
     border: 0px;
     background-color: black;
     height: 100px;
+    
 }
 
 #social-link-icons {
@@ -43,7 +44,7 @@ nav {
     padding-top: 5px;
     padding-bottom: 5px;
     background-image: linear-gradient(to bottom, black, black, black, black, transparent);
-    height: 50px;
+    height: 60px;
     position: sticky;
     top: 0;
 }
@@ -89,8 +90,13 @@ nav p:hover {
 }
 
 main {
-    margin: -1%;
-    background-color: #505050;
+    margin-top: -1%;
+    background-color: black;
+}
+
+#cover-photo {
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 #cover-photo img {
@@ -98,17 +104,14 @@ main {
     height: auto;
 }
 
-#cover-photo {
-    margin-bottom: 10px;
-}
-
-#newest-release {
+#new-release {
     width: 80%;
     margin: auto;
-    
+    border: 2px solid #313131;
+    border-radius: 20px;
 }
 
-#newest-release h1 {
+#new-release h1 {
     color: darkred;
 }
 
